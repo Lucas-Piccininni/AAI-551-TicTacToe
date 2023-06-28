@@ -59,10 +59,10 @@ class TicTacToe:
                     else:
                         print('That space is occupied, try again')
                 else:
-                    print("The input value must be a value between 0 and 8 \n")
+                    print("The input value must be a value between 0 and " + str((len(self.board)*len(self.board[0])) - 1) + "\n")
 
             except ValueError:
-                print("The input value must be a value between 0 and 8 \n")
+                print("The input value must be a value between 0 and " + str((len(self.board)*len(self.board[0])) - 1) + "\n")
         
         self.filledBoard += 1
         print(self)

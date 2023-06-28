@@ -1,3 +1,3 @@
 from TicTacToe import TicTacToe
 
-TicTacToe(5,4, ['P','Q']).startGame()
+TicTacToe(4,3, ['P','Q']).startGame()
